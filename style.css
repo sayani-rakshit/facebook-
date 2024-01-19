@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    border:border-box;
+}
+.fbcom{
+    height:800px;
+    width: 100%;
+    background-color: #F0F2F5;
+    
+    
+
+    
+}
+.Facebook{
+    border: 0;
+    width: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
+    /* height: 100px; */
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top: 30%;
+    left: 42%;
+    height: 380px;
+    width: 400px;
+    background-color: #ffffff;
+    /* margin: 4px 0px 0px; */
+    padding: 10px 0px 24px;
+    border-color: #F0F2F5;
+    /* font-size: 20px; */
+
+
+    
+}
+.form h2{
+    position: relative;
+    left: 30%;
+    margin-bottom: 25px;
+    
+
+}
+.form input{
+    height: 50px;
+    width: 350px;
+    border-radius: 6px;
+    position: relative;
+    left:5%;
+    margin-bottom: 25px;
+    font-size: 16px;
+    transition: 2s;
+    
+    /* border-color: #ffffff; */
+    /* padding: 14px 16px; */
+    
+}
+.form input:focus{
+    outline: none;
+    border-color: #1817f2;
+}
+.login-button {
+height: 32px;
+width: 330px;
+background-color: #1877f2;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 16px;
+position: relative;
+left: 5%;
+border-radius: 12px;
+margin-bottom: 10px;
+border-color: #1817f2;
+/* transition: 1s; */
+}
+/* .login-button :focus{
+    height: 40px;
+    width: 320px;
+    left: 10%;
+} */
+
+.login-button button{
+    height: 32px;
+    width: 320px;
+    font-size: 16px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+}
+.form a{
+    color: #1817f2;
+    font-size: 17px;
+    position: relative;
+    left: 35%;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+hr{
+    margin-bottom: 10px;
+}
+.create-button{
+    height: 48px;
+    width: 200px;
+    background-color:rgb(73, 214, 73) ;
+    border-radius: 6px;
+    position: relative;
+    left:25%;
+    margin-top: 10px;
+
+}
+.create-button button{
+    height:30px ;
+    width: 180px;
+    border: none;
+    background-color:rgb(73, 214, 73) ;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: white;
+    /* text-align: center; */
+}
+
+
+
